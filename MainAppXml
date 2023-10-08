@@ -1,0 +1,14 @@
+package AppXml;
+
+import javax.swing.*;
+
+public class Main {
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                XmlApp app = new XmlApp();
+                app.setVisible(true);
+            }
+        });
+    }
+}
